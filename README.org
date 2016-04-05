@@ -1,0 +1,7 @@
+
+* MY dotFiles
+These are my configurations for my Arch Linux Setup (currently using Dell XPS 13
+Developer Edition 2015).
+
+It relies on Stow to manage the files themselves, and my .xmonad as well as
+.emacs.d are added as submodules

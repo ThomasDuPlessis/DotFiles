@@ -1,0 +1,4 @@
+
+
+# This should not be doing anything since I am logging in from a text console not a graphical one
+exec xmonad 
