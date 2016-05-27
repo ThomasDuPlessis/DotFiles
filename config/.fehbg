@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-scale '/home/tom/Pictures/Wallpapers/4K/HaskellVolcano.png' '/home/tom/Pictures/Wallpapers/4K/SpaceHaskell.jpg' 
