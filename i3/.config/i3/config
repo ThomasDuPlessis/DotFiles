@@ -33,6 +33,7 @@ bindsym $mod+q kill
 
 # Set colors from Xresources
 set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg1 i3wm.color3 #f0f0f0
 set_from_resource $bg i3wm.color2 #f0f0f0
 
 # start dmenu (a program launcher)
@@ -111,7 +112,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused          $bg     $bg1    $fg  $bg       $bg
 client.focused_inactive $bg     $bg     $fg  $bg       $bg
 client.unfocused        $bg     $bg     $fg  $bg       $bg
 client.urgent           $bg     $bg     $fg  $bg       $bg
@@ -125,7 +126,7 @@ client.background       $bg
 #     height 25
 # }
 
-# Add a 5px border to all windows.
+# Add a 0px border to all windows.
 for_window [class="^.*"] border normal 0
 
 # Float all windows by default.
