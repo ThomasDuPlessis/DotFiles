@@ -12,22 +12,16 @@ if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
    fi
 fi
 }
-connectToThredge(){
-    psql --host=thredge.c8jypjw1mid7.us-east-1.rds.amazonaws.com --port=5432 --username=thomasduplessis --password --dbname=Thredge 
-}
-
-connectToSparky(){
-    telnet sparky.ic.sunysb.edu
-}
-
 
 PATH=$PATH:/home/tom/.cabal/bin
 PATH=$PATH:/opt/apache-maven-3.3.9/bin
+PATH=$PATH:/home/tom/Code/scripts
 
 alias chromium='chromium --force-device-scale-factor=1'
 alias google-chrome='google-chrome-stable --force-device-scale-factor=1'
-
+export GDK_SCALE=1
 
 export _JAVA_AWT_WM_NONREPARENTING=1
 export J2D_D3D=false
+
 

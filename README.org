@@ -1,7 +1,16 @@
-
-* MY dotFiles
+* My Dotfiles
 These are my configurations for my Arch Linux Setup (currently using Dell XPS 13
 Developer Edition 2015).
 
 It relies on Stow to manage the files themselves, and my .xmonad as well as
 .emacs.d are added as submodules
+
+These dotfiles have configurations for both i3 and xmonad.
+
+For I3, the following packages are needed:
+- Dunst
+- libnotify
+- playerctl
+- imagemagick
+- lemonbar
+- my scripts package
