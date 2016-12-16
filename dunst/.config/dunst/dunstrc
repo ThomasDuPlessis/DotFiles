@@ -1,6 +1,6 @@
 # vim: ft=cfg
 [global]
-    font = DejaVu Sans Mono 14
+    font = DejaVu Sans Mono for Powerline 20
 
     # Allow a small subset of html markup in notifications and formats:
     #   <b>bold</b>
