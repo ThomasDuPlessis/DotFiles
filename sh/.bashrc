@@ -23,3 +23,5 @@ export GDK_SCALE=1
 
 export _JAVA_AWT_WM_NONREPARENTING=1
 export J2D_D3D=false
+
+alias get_clang_headers="echo | clang -x c++ -v -E - 2>&1 | sed -n '/^#include </,/^End/s|^[^/]*\([^ ]*/include[^ ]*\).*$|-I\1|p'"
