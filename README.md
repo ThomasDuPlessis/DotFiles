@@ -23,3 +23,8 @@ of [dylanaraps](https://github.com/dylanaraps/dotfiles)
 ## Xmonad
 
 Look at my xmonad configuration on github.
+
+## ZSH
+
+My zshrc config relies on oh-my-zsh, and most likely the patched powerline fonts
+since I use agnoster theme.
