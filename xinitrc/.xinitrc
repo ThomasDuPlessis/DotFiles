@@ -12,7 +12,6 @@ case $session in
     i3|i3wm)
         compton &
         dunst &
-        devmon &
         wal -i ~/Pictures/Wallpapers/4K
         wal-set
         urxvtd -q -f &
